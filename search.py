@@ -28,7 +28,7 @@ class search:
 
 if __name__ == "__main__":
 	parse = argparse.ArgumentParser()
-	parse.add_argument("-c", metavar="<COUNT>", type=int, dest="count", help="the number of the number of urls you want to scrape")
+	parse.add_argument("-c", metavar="<COUNT>", type=int, dest="count", help="the number of urls you want to scrape")
 	parse.add_argument("-q", metavar="<QUERY>", dest="query", help="google query that you want to scrape")
 	arg = parse.parse_args()
 	
